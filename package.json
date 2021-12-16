@@ -1,0 +1,20 @@
+{
+  "name": "logistics-server2",
+  "version": "1.0.0",
+  "description": "GraphQL server for EZ-Chain Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "Dennis Kuruvilla",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.5.0",
+    "apollo-server-core": "^3.5.0",
+    "dotenv": "^10.0.0",
+    "graphql": "^16.0.1",
+    "mongoose": "^6.0.14",
+    "nodemon": "^2.0.2"
+  }
+}
